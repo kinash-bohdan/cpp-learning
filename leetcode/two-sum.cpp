@@ -17,6 +17,7 @@ public:
                 if (nums[i] + nums[j] == target)
                 {
                     vector<int> res = {i,j};
+                    
                     return res;
                 }
             }
